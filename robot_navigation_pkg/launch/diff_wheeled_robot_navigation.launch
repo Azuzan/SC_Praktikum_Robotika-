@@ -60,6 +60,6 @@
   </include>
   
     <!-- Launch visualization in rviz -->
-<!--<node name="rviz" pkg="rviz" type="rviz" args="-d $(find robot_navigation_pkg)/rviz/navigate.rviz" required="true" />-->
+<node name="rviz" pkg="rviz" type="rviz" args="-d $(find robot_navigation_pkg)/rviz/navigate.rviz" required="true" />
 </launch>
   
